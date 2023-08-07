@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body class="contenedor">
+    <header>
+        <h1>Selectores CSS</h1>
+    </header>
+    <nav>
+        <ul class="menuh">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="tema.html">Tema</a></li>
+            <li><a href="audio.html">Audio</a></li>
+            <li><a href="cuestionario.html">Cuestionario</a></li>
+        </ul>
+    </nav>
+    <aside>
+        <ul class="menuv">
+            <li><a href="index.html"><img src="img/inicio.png" alt="imagen de inicio" div title="inicio" height="40"
+                        width="40"></a></li>
+            <li><a href="tema.html"><img src="img/tema.png" alt="imagen de tema" div title="Tema" height="40"
+                        width="40"></a></li>
+            <li><a href="audio.html"><img src="img/audio.png" alt="imagen audio" div title="Audio" height="40"
+                        width="40"></a></li>
+            <li><a href="nosotros.html"><img src="img/nosotros.png" alt="imagen de nosotros" div title="Nosotros"
+                        height="40" width="40"></a></li>
+            <li><a href="cuestionario.html"><img src="img/cuestionario.png" alt="imagen cuestionario" div
+                        title="Nosotros" height="40" width="40"></a></li>
+        </ul>
+    </aside>
+    <main><br><br>
+        <section id="inicio">
+            <h1> Responda las siguientes preguntas</h1>
+            <div>
+                <form name="formulario">
+                    <h3>1. Que definen los selectores CSS?</h3>
+                    <input type="radio" name="r1" value="a"> a. estilos<br>
+                    <input type="radio" name="r1" value="b"> b. formas<br>
+                    <input type="radio" name="r1" value="c"> c. colores<br>
+                    <h3>2. Cual de los siguientes enunciados es una clase de selector CSS?:</h3>
+                    <input type="radio" name="r2" value="a"> a. display<br>
+                    <input type="radio" name="r2" value="b"> b. forma<br>
+                    <input type="radio" name="r2" value="c"> c. clase<br>
+                    <h3>3. Que significa la sigla CSS:</h3>
+                    <input type="radio" name="r3" value="a"> a. Center Style<br>
+                    <input type="radio" name="r3" value="b"> b. Cascading Style Sheets<br>
+                    <input type="radio" name="r3" value="c"> c. Style Cascading<br>
+                    <h3>4. Cual es la forma mas eficiente de aplicar Stylos en HTML?:</h3>
+                    <input type="radio" name="r4" value="a"> a. En linea<br>
+                    <input type="radio" name="r4" value="b"> b. Encrustado en la cabecera<br>
+                    <input type="radio" name="r4" value="c"> c. En hojas de estilo externas<br>
+                    <h3>5. Cual de los siguientes es un selector?:</h3>
+                    <input type="radio" name="r5" value="a"> a. p<br>
+                    <input type="radio" name="r5" value="b"> b. 50px<br>
+                    <input type="radio" name="r5" value="c"> c. red<br>
+                    <br>
+                    <br>
+
+                    <input type="button" value="Enviar" onclick="procesarRespuestas()">
+                    <br>
+                    <h1 id="resultado"></h1>
+                </form>
+            </div>
+            <script src="js/script.js"></script>
+</body>
+
+</html>
