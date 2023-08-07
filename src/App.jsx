@@ -23,7 +23,7 @@ function App() {
         </p>
       </div>
       <h6>Enlace al proyecto</h6>
-      <a href='index.html'>Click aqui para ir al proyecto</a>
+      <a href="inicio.html">Click aqui para ir al proyecto</a>
     </>
   )
 }
